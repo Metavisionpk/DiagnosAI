@@ -1,0 +1,61 @@
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Dependency files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs and debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl  # Exclude pickle files (unless you want to track them)
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local development files
+*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# MacOS
+._*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Optional: Exclude large data files (if not needed in repo)
+Data/
+data/
+*.csv
+*.h5
+*.model
